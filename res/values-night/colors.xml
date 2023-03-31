@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_bg">#ff3a4088</color>
+    <color name="mode_sensitive_text_color">#ffffffff</color>
+</resources>

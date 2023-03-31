@@ -1,0 +1,23 @@
+.class public Lh/e/b/t;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final a:Lorg/w3c/dom/Node;
+
+
+# direct methods
+.method public constructor <init>(Lorg/w3c/dom/Node;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "mediaNode cannot be null"
+
+    invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object p1, p0, Lh/e/b/t;->a:Lorg/w3c/dom/Node;
+
+    return-void
+.end method

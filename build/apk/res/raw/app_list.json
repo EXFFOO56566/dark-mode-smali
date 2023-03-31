@@ -1,0 +1,327 @@
+[
+  {
+    "package": "com.app.name",
+    "type": "AUTO | MANUAL",
+    "website": "https://www.maju.systems/article.html",
+    "constant_values_min_android_and_max_android": "https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES",
+    "min_android": 9,
+    "min_version_code": 6
+  },
+  {
+    "package": "com.google.android.apps.photos",
+    "type": "AUTO",
+    "min_version_code": 3371193
+  },
+  {
+    "package": "com.google.android.videos",
+    "type": "AUTO",
+    "min_version_code": 41800375
+  },
+  {
+    "package": "com.instagram.android",
+    "type": "AUTO",
+    "min_android": 19,
+    "min_version_code": 175574582
+  },
+  {
+    "package": "systems.maju.timer",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.reddit.frontpage",
+    "type": "MANUAL",
+    "min_version_code": 228839
+  },
+  {
+    "package": "com.google.android.gm",
+    "type": "MANUAL",
+    "website": "https://darkmode.maju.systems/blog/gmail.html",
+    "min_android": 29
+  },
+  {
+    "package": "com.android.chrome",
+    "type": "MANUAL",
+    "min_version_code": 398714900,
+    "max_android": 28
+  },
+  {
+    "package": "com.android.chrome",
+    "type": "AUTO",
+    "min_version_code": 398714900,
+    "min_android": 29
+  },
+  {
+    "package": "com.google.android.apps.walletnfcrel",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.google.android.apps.walletnfcrel",
+    "type": "MANUAL",
+    "min_version_code": 81951300
+  },
+  {
+    "package": "com.google.android.apps.docs",
+    "type": "MANUAL",
+    "min_version_code": 2010011235
+  },
+  {
+    "package": "com.urbandroid.sleep",
+    "type": "MANUAL",
+    "min_version_code": 21934
+  },
+  {
+    "package": "com.android.vending",
+    "type": "MANUAL",
+    "min_version_code": 81941400
+  },
+  {
+    "package": "tv.twitch.android.app",
+    "type": "MANUAL",
+    "min_version_code": 806010
+  },
+  {
+    "package": "com.google.android.apps.magazines",
+    "type": "MANUAL",
+    "min_version_code": 2020022010
+  },
+  {
+    "package": "com.google.android.apps.fitness",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.urbandroid.sleep",
+    "type": "MANUAL"
+  },
+  {
+    "package": "au.com.shiftyjelly.pocketcasts",
+    "type": "AUTO",
+    "min_version_code": 5347
+  },
+  {
+    "package": "com.microsoft.launcher",
+    "type": "AUTO",
+    "min_version_code": 56354
+  },
+  {
+    "package": "com.google.android.inputmethod.latin",
+    "type": "AUTO",
+    "min_version_code": 26920817
+  },
+  {
+    "package": "org.kustom.widget",
+    "type": "AUTO",
+    "min_version_code": 344005017
+  },
+  {
+    "package": "org.kustom.wallpaper",
+    "type": "AUTO",
+    "min_version_code": 343931910
+  },
+  {
+    "package": "com.thetransitapp.droid",
+    "type": "AUTO"
+  },
+  {
+    "package": "deezer.android.app",
+    "type": "AUTO"
+  },
+  {
+    "package": "project.listick.fakegps",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.google.android.apps.photosgo",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.utorrent.client",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.google.android.apps.messaging",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.youtube",
+    "type": "MANUAL",
+    "min_version_code": 1443552000
+  },
+  {
+    "package": "com.google.android.keep",
+    "type": "MANUAL"
+  },
+  {
+    "package": "code.name.monkey.retromusic",
+    "type": "AUTO",
+    "min_version_code": 10389
+  },
+  {
+    "package": "com.twitter.android",
+    "type": "MANUAL",
+    "min_version_code": 18480001
+  },
+  {
+    "package": "com.teslacoilsw.launcher",
+    "type": "MANUAL",
+    "min_version_code": 62012
+  },
+  {
+    "package": "ru.whatau.cpl",
+    "type": "MANUAL",
+    "min_version_code": 31
+  },
+  {
+    "package": "org.telegram.messenger",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.tippingcanoe.mydealz",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.whatsapp",
+    "type": "MANUAL",
+    "min_android": 15,
+    "min_version_code": 453216
+  },
+  {
+    "package": "com.devhd.feedly",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.facebook.orca",
+    "type": "MANUAL"
+  },
+  {
+    "package": "au.com.shiftyjelly.pocketcasts",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.Slack",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.microsoft.office.outlook",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.viber.voip",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.accuweather.android",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.shazam.android",
+    "type": "AUTO",
+    "min_version_code": 1003010,
+    "min_android": 29
+  },
+  {
+    "package": "com.shazam.android",
+    "type": "MANUAL",
+    "min_version_code": 1003010
+  },
+  {
+    "package": "com.google.android.googlequicksearchbox",
+    "type": "AUTO",
+    "min_version_code": 301087374,
+    "min_android": 29
+  },
+  {
+    "package": "com.facebook.orca",
+    "type": "MANUAL",
+    "min_version_code": 217929683
+  },
+  {
+    "package": "com.mkulesh.onpc",
+    "type": "MANUAL",
+    "min_version_code": 25
+  },
+  {
+    "package": "com.dwarfplanet.bundle",
+    "type": "MANUAL",
+    "min_version_code": 738
+  },
+  {
+    "package": "com.aefyr.sai",
+    "type": "MANUAL",
+    "min_version_code": 55
+  },
+  {
+    "package": "com.treydev.pns",
+    "type": "MANUAL",
+    "min_version_code": 1579000
+  },
+  {
+    "package": "com.treydev.volume",
+    "type": "MANUAL",
+    "min_version_code": 2310
+  },
+  {
+    "package": "ch.deletescape.lawnchair.plah",
+    "type": "MANUAL",
+    "min_version_code": 2589
+  },
+  {
+    "package": "com.google.android.play.games",
+    "type": "MANUAL",
+    "min_version_code": 181840038
+  },
+  {
+    "package": "com.google.android.contacts",
+    "type": "MANUAL",
+    "min_version_code": 2406196
+  },
+  {
+    "package": "com.google.android.calendar",
+    "type": "MANUAL",
+    "min_version_code": 2016607548,
+    "min_android": 26
+  },
+  {
+    "package": "com.google.android.calculator",
+    "type": "MANUAL",
+    "min_version_code": 78000303,
+    "max_android": 28
+  },
+  {
+    "package": "com.google.android.calculator",
+    "type": "AUTO",
+    "min_version_code": 78000303,
+    "min_android": 29
+  },
+  {
+    "package": "id=pl.solidexplorer2",
+    "type": "MANUAL",
+    "min_version_code": 200204
+  },
+  {
+    "package": "com.google.android.dialer",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.pandora.android",
+    "type": "TODO"
+  },
+  {
+    "package": "com.google.android.apps.chromecast.app",
+    "type": "AUTO",
+    "min_version_code": 22801090,
+    "min_android": 29
+  },
+  {
+    "package": "com.slack",
+    "type": "AUTO"
+  },
+  {
+    "package": "de.rki.coronawarnapp",
+    "type": "AUTO"
+  },
+  {
+    "package": "it.Ettore.raspcontroller",
+    "type": "MANUAL"
+  }
+
+]

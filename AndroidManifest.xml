@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="systems.maju.darkmode" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="systems.maju.darkmode.DarkModeApp" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.DarkMode">
+        <meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-9392910841421610~4070527205"/>
+        <meta-data android:name="applovin.sdk.key" android:value="bIe75yKGgfAXLlESRlilMI1JXaK8uPMzdv7nAZqdQMOx2Cdka6PwE6uoDHx_FmNX5coWPn4_ozOCu3IfnNbITT"/>
+        <activity android:name="systems.maju.darkmode.CompatibilityCheckActivity"/>
+        <activity android:name="systems.maju.darkmode.appList.SupportedAppsActivity"/>
+        <receiver android:enabled="true" android:name="systems.maju.darkmode.DarkModeWidgetSmall">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/dark_mode_widget_info_small"/>
+        </receiver>
+        <receiver android:enabled="true" android:name="systems.maju.darkmode.DarkModeWidgetMedium">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/dark_mode_widget_info_medium"/>
+        </receiver>
+        <receiver android:enabled="true" android:name="systems.maju.darkmode.DarkModeWidgetLarge">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/dark_mode_widget_info_large"/>
+        </receiver>
+        <receiver android:name="systems.maju.darkmode.NightModeReceiver" android:process=":remote"/>
+        <receiver android:enabled="true" android:exported="false" android:name="systems.maju.darkmode.BootListener" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/title_activity_contributors" android:name="systems.maju.darkmode.Contributors"/>
+        <activity android:label="@string/title_activity_imprint" android:name="systems.maju.darkmode.Imprint"/>
+        <activity android:label="@string/title_activity_settings" android:name="systems.maju.darkmode.SettingsActivity"/>
+        <activity android:label="@string/title_activity_error" android:name="systems.maju.darkmode.ErrorActivity"/>
+        <activity android:label="@string/title_activity_success" android:name="systems.maju.darkmode.SuccessActivity"/>
+        <activity android:label="@string/title_activity_choose_color" android:name="systems.maju.darkmode.ColorAccentChooserActivity"/>
+        <activity android:label="@string/title_activity_purchase_supporter_pack" android:name="systems.maju.darkmode.PurchaseActivity"/>
+        <activity android:label="@string/title_activity_app_info" android:name="systems.maju.darkmode.AppInfoActivity"/>
+        <activity android:name="systems.maju.darkmode.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.maju.systems" android:pathPrefix="/darkmode" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <service android:name="systems.maju.darkmode.DarkModeNotificationReceiver"/>
+        <service android:icon="@drawable/ic_dark_mode" android:label="@string/app_name" android:name="systems.maju.darkmode.DarkModeTile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.RewardedMraidActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MoPubActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.MoPubBrowser" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.privacy.ConsentDialogActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="2.1.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.applovin.adview.AppLovinInterstitialActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.applovin.mediation.MaxDebuggerDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
+        <service android:exported="false" android:name="com.applovin.impl.sdk.utils.AppKilledService" android:stopWithTask="false"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="systems.maju.darkmode.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="6"/>
+    </application>
+</manifest>

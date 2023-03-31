@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" app:navigationIcon="?homeAsUpIndicator" style="@style/Widget.DarkMode.Toolbar" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/border_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:text="@string/question_what_went_wrong" style="@style/Widget.Darkmode.Text.Headline" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/does_not_work_error_explanation" style="@style/Widget.Darkmode.Text.Content" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/try_faq" style="@style/Widget.Darkmode.Text.Content" />
+            <com.google.android.material.button.MaterialButton android:id="@id/open_faq_button" android:text="@string/faq" style="@style/Widget.DarkMode.Button" />
+            <LinearLayout android:orientation="vertical" android:id="@id/solution_greater_android_o" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:text="@string/question_other_option" style="@style/Widget.Darkmode.Text.Headline" />
+                <com.google.android.material.textview.MaterialTextView android:text="@string/dark_mode_toggle_in_system_settings" style="@style/Widget.Darkmode.Text.Content" />
+                <com.google.android.material.textview.MaterialTextView android:text="@string/check_your_system_settings" style="@style/Widget.Darkmode.Text.Content" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" android:padding="4.0dip" android:layout_marginLeft="16.0dip" android:text="@string/location_android_8_oreo" android:layout_marginStart="16.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" android:background="?colorPrimaryVariant" android:padding="4.0dip" android:layout_marginLeft="8.0dip" android:text="@string/settings_display_advanced_device_theme" android:layout_marginStart="8.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" android:padding="4.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/location_android_9_pie" android:layout_marginStart="16.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" android:background="?colorPrimaryVariant" android:padding="4.0dip" android:layout_marginLeft="8.0dip" android:text="@string/settings_system_developer_options_night_mode" android:layout_marginStart="8.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" android:padding="4.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/location_android_10" android:layout_marginStart="16.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" android:background="?colorPrimaryVariant" android:padding="4.0dip" android:layout_marginLeft="8.0dip" android:text="@string/settings_display_dark_theme" android:layout_marginStart="8.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2" android:id="@id/materialTextView" android:background="?colorPrimaryVariant" android:padding="4.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="1.0dip" android:text="@string/settings_customization_tone" android:layout_marginStart="8.0dip" style="@style/Widget.Darkmode.Text" />
+                <com.google.android.material.button.MaterialButton android:id="@id/open_settings_button" android:text="@string/open_settings" style="@style/Widget.DarkMode.Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

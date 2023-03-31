@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/app_list" android:background="@color/primaryColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="@integer/supported_apps_grid_columns" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_notice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32.0dip" android:text="@string/no_apps_found" style="@style/Widget.Darkmode.Text.Headline" />
+</FrameLayout>

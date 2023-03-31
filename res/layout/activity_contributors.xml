@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" app:navigationIcon="?homeAsUpIndicator" style="@style/Widget.DarkMode.Toolbar" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/border_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:textColor="?colorSecondary" android:layout_gravity="center" android:text="@string/development" style="@style/Widget.Darkmode.Text.Headline" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Julian Eggers" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="0.0dip" android:text="@string/role_android_app" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Mark Tiedemann" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="0.0dip" android:text="@string/role_website" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+            </LinearLayout>
+            <com.google.android.material.textview.MaterialTextView android:textColor="?colorSecondary" android:layout_gravity="center" android:text="@string/translation" style="@style/Widget.Darkmode.Text.Headline" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Arabic (عربى)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Abram Salah" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Hammoudi" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Chinese (汉语)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Trevor Wu" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Croatian (Hrvatski)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Jurica" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Dutch (Nederlands)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Heimen Stoffels" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Finnish (Suomi)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="GhostSlayer" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="French (Français)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Down61" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Jules Meynet" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Mattéo Le Roy" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="German (Deutsch)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Julian Eggers" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Hungarian (Magyar)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="DomCraft" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Indonesian (Bahasa Indonesia)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="immanuel.ade" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="JustKevin420" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Italian (Italiano)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Grissino" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="WeIsSpOl" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Nanoteck" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Odia (ଓଡ଼ିଆ)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Krishna Kabi" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Persian (فارسی)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Ghasemsalehii" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Polish (Polski)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Arkadiusz Kaczmarczyk" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Robert D. (TRK88)" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Black Winner Yoshi" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Kamil Marczak" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="mKoonrad" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Portuguese (Português)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Salvador Domingues" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="MrNobodyDK" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Matheuxx718" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="nemapps" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Your Lyrics" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="DANIELBASILIO" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="@string/role_russian" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Aliana_Basil" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Entaytion" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Serbian (Cрпски)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Милован Кушаковић" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Spanish (Español)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="FAMM" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="JJ_GG" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="protheusdk" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Javier Vidal" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Turkish (Türkçe)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Fatih Fırıncı" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="@string/role_ukrainian" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Entaytion" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="levgen Gil" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:gravity="end" android:layout_width="0.0dip" android:text="Urdu (اُردُو)" android:layout_weight="1.0" style="@style/Widget.Darkmode.Text.Content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textview.MaterialTextView android:gravity="start" android:layout_width="wrap_content" android:text="Saad1430" style="@style/Widget.Darkmode.Text.Content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

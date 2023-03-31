@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" app:navigationIcon="?homeAsUpIndicator" style="@style/Widget.DarkMode.Toolbar" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/border_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:text="@string/how_does_this_app_work" style="@style/Widget.Darkmode.Text.Headline" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/info_dark_mode_app" style="@style/Widget.Darkmode.Text.Content" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/header_example" style="@style/Widget.Darkmode.Text.Headline" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/example" style="@style/Widget.Darkmode.Text.Content" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/view2" android:background="@color/example_google_loading_background" android:layout_width="0.0dip" android:layout_height="280.0dip" android:layout_margin="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:background="@color/transparent" android:layout_width="@dimen/example_icon_size" android:layout_height="@dimen/example_icon_size" android:scaleType="centerCrop" android:tint="@android:color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_directions_car_black_24dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/view" android:background="@android:color/white" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/view2" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:background="@color/transparent" android:layout_width="@dimen/example_icon_size" android:layout_height="@dimen/example_icon_size" android:scaleType="centerCrop" android:tint="@color/example_google_loading_background" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_directions_car_black_24dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.textview.MaterialTextView android:text="@string/auto_mode" style="@style/Widget.Darkmode.Text.Headline" />
+            <com.google.android.material.textview.MaterialTextView android:text="@string/info_auto" style="@style/Widget.Darkmode.Text.Content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

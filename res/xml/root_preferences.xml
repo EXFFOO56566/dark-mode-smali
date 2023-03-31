@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/app_name">
+        <Preference android:icon="@drawable/ic_star_border_24dp" android:title="@string/get_premium" android:key="@string/SUPPORTER_PACK_KEY">
+            <intent android:targetPackage="systems.maju.darkmode" android:targetClass="systems.maju.darkmode.PurchaseActivity" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_color_lens_24dp" android:enabled="false" android:title="@string/change_the_color_accent" android:key="@string/CHANGE_COLOR_KEY">
+            <intent android:targetPackage="systems.maju.darkmode" android:targetClass="systems.maju.darkmode.ColorAccentChooserActivity" />
+        </Preference>
+        <SwitchPreference android:icon="@drawable/ic_star_border_24dp" android:title="Force Dark" android:key="@string/FORCE_DARK_KEY" android:summary="every 15 min" android:defaultValue="false" app:isPreferenceVisible="false" />
+        <Preference android:icon="@drawable/ic_help_outline_24dp" android:title="@string/faq">
+            <intent android:action="android.intent.action.VIEW" android:data="https://darkmode.maju.systems/en-US/faq.html" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/notification_settings">
+        <SwitchPreference android:icon="@drawable/ic_notifications_24dp" android:title="@string/notification_settings" android:key="@string/NOTIFICATION_ENABLED_KEY" />
+        <SwitchPreference android:icon="@drawable/ic_notifications_24dp" android:title="@string/notification_priority" android:key="@string/HIGH_PRIORITY_NOTIFICATION_KEY" android:summary="@string/notification_priority_description" android:dependency="@string/NOTIFICATION_ENABLED_KEY" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/legal">
+        <Preference android:icon="@drawable/ic_security_24dp" android:title="@string/privacy_policy">
+            <intent android:action="android.intent.action.VIEW" android:data="https://darkmode.maju.systems/privacy_policy" />
+        </Preference>
+        <SwitchPreference android:icon="@drawable/ic_fingerprint_black_24dp" android:title="@string/personalized_ads" android:key="@string/PERSONALIZED_ADS_KEY" />
+        <Preference android:icon="@drawable/ic_verified_user_24dp" android:title="@string/terms_and_conditions">
+            <intent android:action="android.intent.action.VIEW" android:data="https://darkmode.maju.systems/terms_of_service" />
+        </Preference>
+        <Preference android:icon="@drawable/ic_people_24dp" android:title="@string/title_activity_contributors">
+            <intent android:targetPackage="systems.maju.darkmode" android:targetClass="systems.maju.darkmode.Contributors" /> /> </Preference>
+        <Preference android:icon="@drawable/ic_edit_24dp" android:title="@string/title_activity_imprint">
+            <intent android:targetPackage="systems.maju.darkmode" android:targetClass="systems.maju.darkmode.Imprint" /> /> </Preference>
+        <Preference android:summary="@string/copy_right_notice" />
+    </PreferenceCategory>
+</PreferenceScreen>

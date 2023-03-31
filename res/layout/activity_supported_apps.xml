@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="?homeAsUpIndicator" style="@style/Widget.DarkMode.Toolbar" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:id="@id/info_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:cardBackgroundColor="@color/app_list_card_bg">
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="@null" android:paddingLeft="16.0dip" android:paddingTop="0.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/textView" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info" app:layout_constraintBottom_toTopOf="@id/info_card_description" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Darkmode.Text.Headline" />
+                    <TextView android:id="@id/info_card_description" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/this_is_a_list_of_your_apps_that_can_turn_dark" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView" style="@style/Widget.Darkmode.Text.Content" />
+                    <TextView android:id="@id/info_card_description_two" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/we_cannot_rule_out_any_mistakes" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/info_card_description" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.checkbox.MaterialCheckBox android:id="@id/check_box" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/never_show_again" app:layout_constraintBottom_toBottomOf="@id/ok_button" app:layout_constraintEnd_toStartOf="@id/ok_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ok_button" style="@style/Widget.Darkmode.Text.Content" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/info_card_description_two" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

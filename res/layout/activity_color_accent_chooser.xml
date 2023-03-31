@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" app:navigationIcon="?homeAsUpIndicator" style="@style/Widget.DarkMode.Toolbar" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/border_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:text="@string/choose_your_favourite_color" style="@style/Widget.Darkmode.Text.Headline" />
+            <RadioGroup android:layout_gravity="center" android:id="@id/accent_radio_group" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="170.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
